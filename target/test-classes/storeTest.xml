@@ -1,0 +1,31 @@
+<suite name="Store" parallel="tests" thread-count="2">
+<test name="Edge Test">
+<parameter name="browser" value="edge"></parameter>
+<classes>
+
+<class name="testng_deneme.storeTest">
+
+
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="Firefox Test">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+
+<class name="testng_deneme.storeTest">
+
+
+
+</class>
+
+</classes>
+
+</test>
+
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Store]">
+  <test thread-count="2" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testng_deneme.storeTest">
+        <methods>
+          <include name="exit"/>
+          <include name="Test1"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- testng_deneme.storeTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Store] -->
